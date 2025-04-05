@@ -15,7 +15,7 @@
 
 1. Clona o scarica questo repository:
    ```bash
-   git clone https://github.com/tuo-utente/il-leviatano.git
+   git clone https://github.com/OrangeBaron/leviatano.git
    ```
 
 2. Apri Chrome e accedi a `chrome://extensions/`.
