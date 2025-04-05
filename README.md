@@ -13,7 +13,7 @@
 
 ## Installazione
 
-1. Clona o [https://github.com/OrangeBaron/leviatano/archive/refs/heads/main.zip](scarica) questo repository:
+1. Clona o [scarica](https://github.com/OrangeBaron/leviatano/archive/refs/heads/main.zip) questo repository:
    ```bash
    git clone https://github.com/OrangeBaron/leviatano.git
    ```
@@ -24,7 +24,7 @@
 
 4. Clicca su **"Carica estensione non pacchettizzata"** e seleziona la cartella del progetto.
 
-5. Vai su [https://chatgpt.com](https://chatgpt.com) per iniziare a giocare!
+5. Vai su [chatgpt.com](https://chatgpt.com) per iniziare a giocare!
 
 ## 🔧 Crea il tuo gioco!
 
