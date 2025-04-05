@@ -1,0 +1,12 @@
+indicatore1=DebitoPubblico
+indicatore2=ApprovazionePopolare
+indicatore3=AppoggioIstituzioni
+indicatore4=RelazioniInternazionali
+titolo1=Giornale1
+titolo2=Giornale2
+titolo3=Giornale3
+testo-storia=Storia
+scelta1=Scelta1
+scelta2=Scelta2
+scelta3=Scelta3
+scelta4=Scelta4

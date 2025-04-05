@@ -1,0 +1,12 @@
+Turno %TURN% di %TURNS%: il giocatore ha fatto la scelta numero %NUMBER%, il mandato si è concluso e la partita è finita, concludi la storia.
+
+Rispondi nel formato seguente, compilando e aggiornando i campi dopo il segno = e senza aggiungere altro:
+GameOver=true
+DebitoPubblico=numero percentuale sul PIL (ad es. "135")
+ApprovazionePopolare=numero da 0 a 100
+AppoggioIstituzioni=una parola
+RelazioniInternazionali=una parola
+Giornale1=un titolo di giornale
+Giornale2=un titolo di giornale
+Giornale3=un titolo di giornale
+Storia=il testo con la conclusione della storia, senza mai andare a capo

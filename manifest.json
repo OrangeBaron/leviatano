@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Il Leviatano - Game Extension",
+  "version": "1.0",
+  "description": "Estensione che trasforma il sito di ChatGPT nel gioco 'Il Leviatano'.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab", "scripting"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "userInterface.html",
+        "mappings.txt",
+        "maxTurns.txt",
+        "optionsNumber.txt",
+        "startingOptions.txt",
+        "prompt_start.txt",
+        "prompt_normal.txt",
+        "prompt_end.txt",
+        "icon.png"
+      ],
+      "matches": ["https://chatgpt.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
+  
