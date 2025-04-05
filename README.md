@@ -13,7 +13,7 @@
 
 ## Installazione
 
-1. Clona o scarica questo repository:
+1. Clona o [https://github.com/OrangeBaron/leviatano/archive/refs/heads/main.zip](scarica) questo repository:
    ```bash
    git clone https://github.com/OrangeBaron/leviatano.git
    ```
