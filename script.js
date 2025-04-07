@@ -4,16 +4,20 @@
 
   // Funzione per caricare un file in modo asincrono con gestione degli errori
   async function loadFile(fileName) {
-    try {
-      const fileUrl = chrome.runtime.getURL(fileName);
-      const response = await fetch(fileUrl);
-      return await response.text();
-    } catch (error) {
-      console.error("Errore nel caricamento del file:", fileName, error);
-      return "";
-    }
+    return new Promise((resolve) => {
+      chrome.storage.local.get(fileName, async result => {
+        if (result[fileName]) {
+          resolve(result[fileName]);
+        } else {
+          const fileUrl = chrome.runtime.getURL(fileName);
+          const response = await fetch(fileUrl);
+          const text = await response.text();
+          resolve(text);
+        }
+      });
+    });
   }
-
+  
   // Funzione per sanitizzare il testo in HTML
   function escapeHtml(text) {
     return text

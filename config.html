@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Il Leviatano - Configurazione</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 1rem;
+    }
+    h1 {
+      color: #1a237e;
+    }
+    .config-section {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    label {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    textarea {
+      width: 100%;
+      field-sizing: content;
+      font-family: monospace;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    button {
+      background: #1a237e;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+    button:hover {
+      background: #303f9f;
+    }
+    #resetBtn {
+      display: block;
+      margin: 1rem auto;
+      background: #b71c1c;
+    }
+  </style>
+</head>
+<body>
+  <h1>Configurazione - Il Leviatano</h1>
+  
+  <div id="configContainer"></div>
+
+  <button id="resetBtn">Ripristina Configurazione Predefinita</button>
+
+  <script src="config.js"></script>
+</body>
+</html>
