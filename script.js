@@ -132,6 +132,8 @@
   // Crea e posiziona il contenitore del gioco, nascondendo gli elementi originali della pagina
   function setupGameContainer(html) {
     // Rimuove stili e link originali
+    const dismissLink = document.querySelector('a[data-testid="dismiss-welcome"]');
+    if (dismissLink) { dismissLink.click(); }
     document.querySelectorAll('link[rel="stylesheet"]').forEach(el => el.remove());
     document.querySelectorAll("style").forEach(el => el.remove());
     document.querySelectorAll('link[rel="icon"]').forEach(el => el.remove());
