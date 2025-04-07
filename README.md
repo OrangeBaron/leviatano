@@ -46,6 +46,9 @@ Tutte le modifiche effettuate nella pagina di configurazione vengono salvate loc
 
 Questo ti permette di sperimentare liberamente con le modifiche senza rischiare di rovinare il gioco originale.
 
+## 📚 Guida completa al Modding
+Per una guida dettagliata su come modificare i prompt, le opzioni, l'interfaccia utente e creare la tua esperienza personalizzata, consulta la [Guida al Modding](https://github.com/OrangeBaron/leviatano/blob/main/moddingGuide.md).
+
 ## File Principali
 
 - `manifest.json`: Descrive l'estensione e i permessi necessari.
