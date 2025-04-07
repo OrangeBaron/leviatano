@@ -1,1 +1,1 @@
-Turno %TURN% di %TURNS%: il giocatore ha fatto la scelta numero %NUMBER%, prosegui la storia.
+Turno %TURN% di %TURNS%: il giocatore ha fatto la scelta numero %NUMBER%, prosegui la storia e presenta la prossima sfida.
