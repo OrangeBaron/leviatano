@@ -32,8 +32,6 @@
   function showOverlay() {
     const overlay = document.createElement("div");
     overlay.id = "waitingOverlay";
-    overlay.style =
-      "position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;color:#fff;font-size:2rem;z-index:1000;";
     overlay.textContent = "In attesa di ChatGPT...";
     document.body.appendChild(overlay);
   }
