@@ -9,6 +9,7 @@
 - Generazione dinamica degli eventi e delle sfide.
 - Indicatori aggiornabili: Debito Pubblico, Approvazione Popolare, Appoggio Istituzionale, Relazioni Internazionali.
 - Script automatizzato che gestisce la partita e aggiorna la UI.
+- Pagina di configurazione interattiva per personalizzare il gioco.
 - 100% client-side, senza server esterni.
 
 ## Installazione
@@ -26,25 +27,32 @@
 
 5. Vai su [chatgpt.com](https://chatgpt.com) per iniziare a giocare!
 
+6. Per personalizzare il gioco, clicca su **"Estensioni" → "Dettagli" → "Opzioni"** accanto a **Il Leviatano** per accedere alla pagina di configurazione.
+
 ## 🔧 Crea il tuo gioco!
 
-Il vero gioco è **fare il tuo gioco**. Il Leviatano è pensato come una piattaforma flessibile: puoi trasformarlo in qualsiasi esperienza narrativa modificando pochi file.
+Il vero gioco è **fare il tuo gioco**. Il Leviatano è pensato come una piattaforma flessibile: puoi trasformarlo in qualsiasi esperienza narrativa modificando pochi file, direttamente dalla **pagina di configurazione**.
 
-Ecco come:
-
-- **userInterface.html**: modifica la grafica e il testo dell’interfaccia utente.
-- **prompt_start.txt**, **prompt_normal.txt**, **prompt_end.txt**: cambia la logica narrativa dei prompt.
-- **startingOptions.txt**: scegli le opzioni iniziali.
-- **mappings.txt**: definisci come i dati del prompt aggiornano l’interfaccia.
-- **maxTurns.txt** e **optionsNumber.txt**: personalizza durata e numero di scelte.
+Nella pagina potrai:
+- Visualizzare e modificare i contenuti di `prompt_start.txt`, `prompt_normal.txt`, `prompt_end.txt`, `startingOptions.txt`, `mappings.txt`, `maxTurns.txt`, `optionsNumber.txt` e `userInterface.html`.
+- Salvare le modifiche localmente (verranno usate al posto dei file originali).
+- Ripristinare la configurazione predefinita in un clic.
 
 Puoi raccontare storie fantasy, horror, sci-fi, romantiche, distopiche, o simulare situazioni aziendali, esami universitari, esplorazioni spaziali o drammi interpersonali. Le possibilità sono infinite. Basta un prompt ben scritto e una buona immaginazione.
+
+## 🧪 Personalizzazione avanzata
+
+Tutte le modifiche effettuate nella pagina di configurazione vengono salvate localmente. Se vuoi tornare ai file originali, premi il pulsante **“Ripristina Configurazione Predefinita”** nella stessa pagina.
+
+Questo ti permette di sperimentare liberamente con le modifiche senza rischiare di rovinare il gioco originale.
 
 ## File Principali
 
 - `manifest.json`: Descrive l'estensione e i permessi necessari.
 - `script.js`: Contiene la logica del gioco.
 - `userInterface.html`: Layout e stile dell'interfaccia di gioco.
+- `config.html`: Interfaccia di configurazione per personalizzare il gioco.
+- `config.js`: Script associato alla pagina di configurazione.
 - `prompt_start.txt`, `prompt_normal.txt`, `prompt_end.txt`: Prompt dinamici per interazione con ChatGPT.
 - `mappings.txt`, `maxTurns.txt`, `optionsNumber.txt`, `startingOptions.txt`: File di configurazione.
 
