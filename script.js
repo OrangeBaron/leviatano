@@ -207,10 +207,10 @@
           finalCommand = await loadFile("prompt_normal.txt");
         }
         finalCommand = finalCommand
-          .replace("%TEXT%", button.textContent)
-          .replace("%NUMBER%", (index + 1).toString())
-          .replace("%TURN%", currentTurnObj.current.toString())
-          .replace("%TURNS%", totalTurns.toString());
+          .replace("%TESTO%", button.textContent)
+          .replace("%NUMERO%", (index + 1).toString())
+          .replace("%TURNO%", currentTurnObj.current.toString())
+          .replace("%TURNI%", totalTurns.toString());
 
         const chatInput = document.querySelector("#prompt-textarea");
         if (chatInput) {

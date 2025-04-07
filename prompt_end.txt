@@ -1,4 +1,4 @@
-Turno %TURN% di %TURNS%: il giocatore ha fatto la scelta numero %NUMBER%, il mandato si è concluso e la partita è finita, concludi la storia.
+Turno %TURNO% di %TURNI%: il giocatore ha fatto la scelta numero %NUMERO%, il mandato si è concluso e la partita è finita, concludi la storia.
 
 Rispondi nel formato seguente, compilando e aggiornando i campi dopo il segno = e senza aggiungere altro:
 GameOver=true
