@@ -10,6 +10,7 @@
 - Indicatori aggiornabili: Debito Pubblico, Approvazione Popolare, Appoggio Istituzionale, Relazioni Internazionali.
 - Script automatizzato che gestisce la partita e aggiorna la UI.
 - Pagina di configurazione interattiva per personalizzare il gioco.
+- Funzionalità di **Import/Export** della configurazione: consente di salvare l'intera configurazione di gioco in un file Markdown e di importarla per ripristinare o condividere la configurazione completa.
 - 100% client-side, senza server esterni.
 
 ## Installazione
@@ -21,7 +22,7 @@
 
 2. Apri Chrome e accedi a `chrome://extensions/`.
 
-3. Attiva la modalità **Sviluppatore** in alto a destra.
+3. Attiva la **"Modalità sviluppatore"** in alto a destra.
 
 4. Clicca su **"Carica estensione non pacchettizzata"** e seleziona la cartella del progetto.
 
@@ -34,9 +35,11 @@
 Il vero gioco è **fare il tuo gioco**. Il Leviatano è pensato come una piattaforma flessibile: puoi trasformarlo in qualsiasi esperienza narrativa modificando pochi file, direttamente dalla **pagina di configurazione**.
 
 Nella pagina potrai:
-- Visualizzare e modificare i contenuti di `prompt_start.txt`, `prompt_normal.txt`, `prompt_end.txt`, `startingOptions.txt`, `mappings.txt`, `maxTurns.txt`, `optionsNumber.txt` e `userInterface.html`.
-- Salvare le modifiche localmente (verranno usate al posto dei file originali).
-- Ripristinare la configurazione predefinita in un clic.
+- Visualizzare e modificare il contenuto di tutti i file di gioco.
+- Salvare le modifiche localmente.
+- **Esportare** l'intera configurazione corrente, per condividere la tua personalizzazione.
+- **Importare** una configurazione di gioco esistente.
+- Ripristinare la configurazione predefinita con un clic.
 
 Puoi raccontare storie fantasy, horror, sci-fi, romantiche, distopiche, o simulare situazioni aziendali, esami universitari, esplorazioni spaziali o drammi interpersonali. Le possibilità sono infinite. Basta un prompt ben scritto e una buona immaginazione.
 

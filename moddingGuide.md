@@ -56,19 +56,17 @@ Puoi creare una nuova interfaccia modificando `userInterface.html`. Assicurati d
 
 ### ✅ Obbligatorio:
 
-- Le **scelte** devono essere dentro un container con ID:
+- Le **scelte** devono essere inserite all'interno di un container con l'ID:
   ```html
   <section id="scelte">...</section>
   ```
-
-- I bottoni delle scelte devono avere ID in questo formato:
+- I bottoni delle scelte devono avere ID nel formato:
   ```html
   <button id="scelta1" class="scelta">Opzione 1</button>
   <button id="scelta2" class="scelta">Opzione 2</button>
   ...
   ```
-
-- Gli elementi da aggiornare (indicatori, titoli, testo) devono avere ID corrispondenti a quelli definiti in `mappings.txt`.
+- Gli elementi da aggiornare (indicatori, titoli, testo) devono avere gli ID corrispondenti a quelli definiti in `mappings.txt`.
 
 ### 📋 Esempio `mappings.txt`
 
@@ -86,8 +84,8 @@ Modifica questi ID nell’HTML per far combaciare i dati generati da ChatGPT con
 
 ## 🔁 Esempio di Ciclo di Gioco
 
-1. Il giocatore sceglie un’opzione iniziale (`startingOptions.txt`)
-2. Viene inviato il prompt da `prompt_start.txt`
+1. Il giocatore sceglie un’opzione iniziale (definita in `startingOptions.txt`).
+2. Viene inviato il prompt da `prompt_start.txt`.
 3. ChatGPT risponde con:
    ```
    GameOver=false
@@ -100,16 +98,18 @@ Modifica questi ID nell’HTML per far combaciare i dati generati da ChatGPT con
    Scelta3=Ignora...
    Scelta4=Commissiona uno studio...
    ```
-4. L’interfaccia viene aggiornata in automatico leggendo `mappings.txt`
-5. Al turno successivo, si invia `prompt_normal.txt` (o `prompt_end.txt` all’ultimo turno)
+4. L’interfaccia viene aggiornata automaticamente leggendo `mappings.txt`.
+5. Al turno successivo, viene inviato `prompt_normal.txt` (oppure `prompt_end.txt` al termine della partita).
 
 ---
 
 ## 💾 Salvataggio e Ripristino
 
-Ogni modifica viene salvata localmente nel browser. Puoi:
-- **Salvare** i tuoi cambiamenti cliccando “Salva”
-- **Ripristinare** tutto com’era all’inizio cliccando “Ripristina Configurazione Predefinita”
+Ogni modifica viene salvata localmente nel browser. Nella pagina di configurazione potrai:
+- **Salvare** i cambiamenti cliccando "Salva" per ciascun file.
+- **Esportare** la configurazione corrente in un file Markdown.
+- **Importare** una configurazione da un file Markdown (precedentemente esportato).
+- **Ripristinare** la configurazione predefinita cliccando "Ripristina Configurazione Predefinita".
 
 ---
 
@@ -122,7 +122,7 @@ Puoi trasformare **Il Leviatano** in:
 - una storia d’amore interattiva
 - un simulatore di esame universitario
 
-…basta cambiare i prompt e l'interfaccia!
+… basta cambiare i prompt e l'interfaccia!
 
 ---
 
