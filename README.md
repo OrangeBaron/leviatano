@@ -10,7 +10,7 @@
 - Indicatori aggiornabili: Debito Pubblico, Approvazione Popolare, Appoggio Istituzionale, Relazioni Internazionali.
 - Script automatizzato che gestisce la partita e aggiorna la UI.
 - Pagina di configurazione interattiva per personalizzare il gioco.
-- Funzionalità di **Import/Export** della configurazione: consente di salvare l'intera configurazione di gioco in un file Markdown e di importarla per ripristinare o condividere la configurazione completa.
+- Funzionalità di Import/Export della configurazione completa.
 - 100% client-side, senza server esterni.
 
 ## Installazione
@@ -36,18 +36,16 @@ Il vero gioco è **fare il tuo gioco**. Il Leviatano è pensato come una piattaf
 
 Nella pagina potrai:
 - Visualizzare e modificare il contenuto di tutti i file di gioco.
-- Salvare le modifiche localmente.
-- **Esportare** l'intera configurazione corrente, per condividere la tua personalizzazione.
-- **Importare** una configurazione di gioco esistente.
+- Salvare le modifiche localmente (verranno usate al posto dei file originali).
+- Esportare l'intera configurazione corrente, per **condividere** la tua personalizzazione.
+- Importare una configurazione di gioco esistente.
 - Ripristinare la configurazione predefinita con un clic.
-
-Puoi raccontare storie fantasy, horror, sci-fi, romantiche, distopiche, o simulare situazioni aziendali, esami universitari, esplorazioni spaziali o drammi interpersonali. Le possibilità sono infinite. Basta un prompt ben scritto e una buona immaginazione.
 
 ## 🧪 Personalizzazione avanzata
 
-Tutte le modifiche effettuate nella pagina di configurazione vengono salvate localmente. Se vuoi tornare ai file originali, premi il pulsante **“Ripristina Configurazione Predefinita”** nella stessa pagina.
+Puoi raccontare storie fantasy, horror, sci‑fi, romantiche, distopiche, o simulare situazioni aziendali, esami universitari, esplorazioni spaziali o drammi interpersonali. Le possibilità sono infinite. Basta un prompt ben scritto e una buona immaginazione.
 
-Questo ti permette di sperimentare liberamente con le modifiche senza rischiare di rovinare il gioco originale.
+Ogni modifica apportata nella pagina di configurazione viene salvata localmente, offrendo una base dinamica per dare forma alle tue idee creative. Inoltre, grazie alle opzioni di importazione ed esportazione, puoi salvare un gioco completo oppure importare configurazioni realizzate da altri, ampliando le possibilità narrative e stimolando la tua sperimentazione.
 
 ## 📚 Guida completa al Modding
 Per una guida dettagliata su come modificare i prompt, le opzioni, l'interfaccia utente e creare la tua esperienza personalizzata, consulta la [Guida al Modding](https://github.com/OrangeBaron/leviatano/blob/main/moddingGuide.md).

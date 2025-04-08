@@ -100,34 +100,3 @@ Modifica questi ID nell’HTML per far combaciare i dati generati da ChatGPT con
    ```
 4. L’interfaccia viene aggiornata automaticamente leggendo `mappings.txt`.
 5. Al turno successivo, viene inviato `prompt_normal.txt` (oppure `prompt_end.txt` al termine della partita).
-
----
-
-## 💾 Salvataggio e Ripristino
-
-Ogni modifica viene salvata localmente nel browser. Nella pagina di configurazione potrai:
-- **Salvare** i cambiamenti cliccando "Salva" per ciascun file.
-- **Esportare** la configurazione corrente in un file Markdown.
-- **Importare** una configurazione da un file Markdown (precedentemente esportato).
-- **Ripristinare** la configurazione predefinita cliccando "Ripristina Configurazione Predefinita".
-
----
-
-## 💡 Consigli Creativi
-
-Puoi trasformare **Il Leviatano** in:
-- un gestionale fantasy
-- un survival horror a turni
-- un’avventura aziendale
-- una storia d’amore interattiva
-- un simulatore di esame universitario
-
-… basta cambiare i prompt e l'interfaccia!
-
----
-
-## 🧪 Testa tutto localmente
-
-Non serve un server. Tutto gira in locale grazie all’estensione Chrome.
-
-Buon modding! 💥
