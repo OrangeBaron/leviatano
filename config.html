@@ -33,6 +33,7 @@
     }
     textarea {
       width: 100%;
+      box-sizing: content-box;
       field-sizing: content;
       font-family: monospace;
       font-size: 0.9rem;
@@ -51,21 +52,37 @@
     button:hover {
       background: #303f9f;
     }
-    #resetBtn {
-      display: block;
-      margin: 1rem auto;
+    .red-button {
       background: #b71c1c;
+    }
+    .red-button:hover {
+      background: #d32f2f;
+    }
+    .button-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 1rem;
     }
   </style>
 </head>
 <body>
   <h1>Il Leviatano - Configurazione</h1>
 
-  <p><a href="https://github.com/OrangeBaron/leviatano/blob/main/moddingGuide.md" target="_blank">Guida al Modding</a></p>
+  <p>
+    <a href="https://github.com/OrangeBaron/leviatano/blob/main/moddingGuide.md" target="_blank">
+      Guida al Modding
+    </a>
+  </p>
   
   <div id="configContainer"></div>
 
-  <button id="resetBtn">Ripristina Configurazione Predefinita</button>
+  <div class="button-row">
+    <button id="importConfigBtn">Importa Configurazione</button>
+    <button id="exportConfigBtn">Esporta Configurazione</button>
+    <button id="resetBtn" class="red-button">Ripristina Configurazione Predefinita</button>
+    <input type="file" id="importFile" style="display:none" accept=".md">
+  </div>
 
   <script src="config.js"></script>
 </body>
