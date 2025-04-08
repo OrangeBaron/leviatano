@@ -28,11 +28,11 @@
 
 5. Vai su [chatgpt.com](https://chatgpt.com) per iniziare a giocare!
 
-6. Per personalizzare il gioco, clicca su **"Gestisci estensioni" → "Dettagli" → "Opzioni estensione"** per accedere alla pagina di configurazione.
-
 ## 🔧 Crea il tuo gioco!
 
 Il vero gioco è **fare il tuo gioco**. Il Leviatano è pensato come una piattaforma flessibile: puoi trasformarlo in qualsiasi esperienza narrativa modificando pochi file, direttamente dalla **pagina di configurazione**.
+
+Per personalizzare il gioco, clicca su **"Gestisci estensioni" → "Dettagli" → "Opzioni estensione"** per accedere alla pagina di configurazione.
 
 Nella pagina potrai:
 - Visualizzare e modificare il contenuto di tutti i file di gioco.
