@@ -1,3 +1,8 @@
+# ⚠️ QUESTO PROGETTO È OBSOLETO
+✅ Esiste una versione migliorata, visita [ChatGPT-GameMaker](https://github.com/OrangeBaron/ChatGPT-GameMaker)!
+
+---
+
 # Il Leviatano - Estensione Gioco per ChatGPT
 
 **Il Leviatano** è un gioco politico interattivo che trasforma l'interfaccia di ChatGPT in un'avventura testuale immersiva. Il giocatore assume il ruolo di Primo Ministro e deve affrontare sfide politiche, economiche e sociali turno dopo turno. Il gioco è ispirato al concetto di libertà economica contrapposta all'interventismo statale.
@@ -66,8 +71,6 @@ Questo progetto è distribuito sotto la **GNU General Public License v3.0 (GPLv3
 Puoi usarlo, modificarlo e ridistribuirlo a patto che mantenga la stessa licenza.
 
 Consulta il file [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) per maggiori dettagli.
-
----
 
 ## Crediti
 
